@@ -1,0 +1,28 @@
+output:
+12345
+23451
+34512
+45123
+51234
+
+import java.io.*;                            
+class numberpattern
+{
+ public static void main(String args[])
+{
+  int n=5;
+  for(int i=1;i<=n;i++)
+  {
+    for(int j=i;j<=n;j++)
+        {
+	 System.out.print(j);
+	}
+	for(int k=1;k<=i-1;k++)
+	{
+	 System.out.print(k);
+	}
+	System.out.println();
+  }
+
+}
+}
